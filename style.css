@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 500px) {
+    body {
+        min-height: 100vh;
+    }
+}
+#container {
+    width: 100%;
+    background-color: #c3aeae;
+    padding: 20px;
+}
+input{
+    padding: 15px;
+}
+.button{
+    color: white;
+    padding: 15px;
+    width: 18%;
+    border: none;
+    background-color: rgb(21, 21, 229);
+    border-radius: 10px;
+}
+button{
+    color: #ff0000;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+    font-size: 26px;
+    font-weight: bolder;
+}
+ul{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 60%;
+    color: rgb(225, 3, 225);
+}
+#last{
+    text-align: center;
+    color: darkblue;
+    padding: 10px;
+    margin: 5px;
+
+}
+ul li{
+    margin-left: 7px;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
